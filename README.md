@@ -29,6 +29,11 @@ nix flake show
 nix run . -- add {tarball URL or flake-style spec}
 ```
 
+### update a package to another version
+```shell
+nix run . -- update {package-name}
+```
+
 ### build a package
 ```shell
 nix build .#{package-name}
