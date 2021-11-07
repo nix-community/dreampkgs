@@ -11,13 +11,17 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "narHash": "sha256-+3dtuu7Nr2U2v/VEuTSANnBaW1rhbx+nzi62IwUIH3o=",
-        "path": "/home/grmpf/projects/github/dream2nix",
-        "type": "path"
+        "lastModified": 1636273566,
+        "narHash": "sha256-yScwbxDrHpLMOfs0yUvIk2o/SA0Zhdtad+qvNWgsC2E=",
+        "owner": "davhau",
+        "repo": "dream2nix",
+        "rev": "46f08185596839f6c99714a1132114b236564d8a",
+        "type": "github"
       },
       "original": {
-        "path": "/home/grmpf/projects/github/dream2nix",
-        "type": "path"
+        "owner": "davhau",
+        "repo": "dream2nix",
+        "type": "github"
       }
     },
     "mach-nix": {
