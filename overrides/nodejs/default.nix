@@ -104,6 +104,16 @@ in
     };
   };
 
+  ledger-live-desktop = {
+    build = {
+      postPatch = ''
+        substituteInPlace ./tools/main.js --replace \
+          "git rev-parse --short HEAD" \
+          "echo unknown"
+      '';
+    };
+  };
+
   mozjpeg = {
     add-binary = {
       buildScript = ''
