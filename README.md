@@ -11,7 +11,7 @@ It is valuable to get PRs and feedback to see what needs to be improved.
 
 To interact with the CLI, use nix 2.4 with enabled experimental features nix-command + flakes.
 
-# Packaging workflow:
+# Packaging workflow
 
 ### clone repo
 ```shell
@@ -49,3 +49,11 @@ nix build .#{package-name}.packages.{dependency-name}
 Open `./overrides/{subsystem}/default.nix` and add or modify entries.  
 See the documentation for the [Override System](https://github.com/DavHau/dream2nix/blob/main/docs/override-system.md)
 
+
+# Developing/Debugging dream2nix
+## Use dreampkgs with a local checkout of dream2nix
+Temporarily override the dream2nix input of dreampkgs via:
+```shell
+nix flake lock --override-input dream2nix path:///$HOME/path/to/dream2nix
+```
+This command needs to be re-executed after each change on dream2nix.
