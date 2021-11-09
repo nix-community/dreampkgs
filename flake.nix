@@ -38,7 +38,7 @@
           (pname:
             let
               outputs = dream2nix.riseAndShine {
-                dreamLock = "${./.}/packages/${pname}/dream-lock.json";
+                dreamLock = "${self}/packages/${pname}/dream-lock.json";
               };
             in
               outputs.defaultPackage."${system}"
@@ -52,6 +52,7 @@
         apps = dream2nix.apps;
         defaultApp = dream2nix.defaultApp;
         packages = dreampkgs;
+        hydraJobs = dreampkgs;
       }
     ];
 }
