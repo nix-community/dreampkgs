@@ -9,6 +9,8 @@ The goal of this repo is to test and improve dream2nix.
 If you are interested in this project, please try adding any package you like or help fixing existing packages.  
 It is valuable to get PRs and feedback to see what needs to be improved.
 
+See hydra jobs here: https://hydra.ngi0.nixos.org/jobset/dreampkgs/main#tabs-jobs
+
 To interact with the CLI, use nix 2.4 with enabled experimental features nix-command + flakes.
 
 # Packaging workflow
