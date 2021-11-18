@@ -2,6 +2,7 @@
   "nodes": {
     "dream2nix": {
       "inputs": {
+        "gomod2nix": "gomod2nix",
         "mach-nix": "mach-nix",
         "nix-parsec": "nix-parsec",
         "nixpkgs": [
@@ -11,16 +12,32 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "lastModified": 1636642183,
-        "narHash": "sha256-yEGVdfKTptCD53MdWLEs78FfNabjf108pLOJ2QEIwB4=",
+        "lastModified": 1637212824,
+        "narHash": "sha256-Q9yLr48XQ3GG9faMLAh0AOlm8inI7Ja1T9I5EitocnM=",
         "owner": "davhau",
         "repo": "dream2nix",
-        "rev": "e909fb1cb3db93a0c70b70890392fca042c7edc4",
+        "rev": "d22d99ff96382dad7525b2841feb661c9fb4711b",
         "type": "github"
       },
       "original": {
         "owner": "davhau",
         "repo": "dream2nix",
+        "type": "github"
+      }
+    },
+    "gomod2nix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627572165,
+        "narHash": "sha256-MFpwnkvQpauj799b4QTBJQFEddbD02+Ln5k92QyHOSk=",
+        "owner": "tweag",
+        "repo": "gomod2nix",
+        "rev": "67f22dd738d092c6ba88e420350ada0ed4992ae8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tweag",
+        "repo": "gomod2nix",
         "type": "github"
       }
     },
