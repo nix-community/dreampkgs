@@ -2,7 +2,7 @@
   "_generic": {
     "mainPackageName": "prettier",
     "mainPackageVersion": "2.4.1",
-    "sourcesCombinedHash": null,
+    "sourcesAggregatedHash": null,
     "subsystem": "nodejs",
     "translatedBy": "nodejs.pure.yarn-lock",
     "translator": "yarn-lock",

@@ -2,7 +2,7 @@
   "_generic": {
     "mainPackageName": "mattermost-desktop",
     "mainPackageVersion": "5.0.1",
-    "sourcesCombinedHash": null,
+    "sourcesAggregatedHash": null,
     "subsystem": "nodejs",
     "translatedBy": "nodejs.pure.package-lock",
     "translator": "package-lock",

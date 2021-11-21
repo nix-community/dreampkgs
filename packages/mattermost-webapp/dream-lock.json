@@ -2,7 +2,7 @@
   "_generic": {
     "mainPackageName": "@mattermost/webapp",
     "mainPackageVersion": "5.36.0-0",
-    "sourcesCombinedHash": null,
+    "sourcesAggregatedHash": null,
     "subsystem": "nodejs",
     "translatedBy": "nodejs.pure.package-lock",
     "translator": "package-lock",
