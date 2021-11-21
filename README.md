@@ -1,6 +1,6 @@
-[dreampkgs](https://github.com/DavHau/dreampkgs) 
+[dreampkgs](https://github.com/nix-community/dreampkgs)
 is a collection of software packages managed with 
-[dream2nix](https://github.com/DavHau/dream2nix), a framework for automated packaging.
+[dream2nix](https://github.com/nix-community/dream2nix), a framework for automated packaging.
 
 Both dream2nix and dreampkgs are unstable at this point.
 
@@ -17,7 +17,7 @@ To interact with the CLI, use nix 2.4 with enabled experimental features nix-com
 
 ### clone repo
 ```shell
-git clone https://github.com/DavHau/dreampkgs
+git clone https://github.com/nix-community/dreampkgs
 cd dreampkgs
 ```
 
@@ -49,7 +49,7 @@ nix build .#{package-name}.packages.{dependency-name}
 
 ### modify the build recipe of a package or dependency
 Open `./overrides/{subsystem}/default.nix` and add or modify entries.  
-See the documentation for the [Override System](https://github.com/DavHau/dream2nix/blob/main/docs/override-system.md)
+See the documentation for the [Override System](https://github.com/nix-community/dream2nix/blob/main/docs/override-system.md)
 
 
 # Developing/Debugging dream2nix
