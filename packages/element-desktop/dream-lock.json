@@ -2,7 +2,7 @@
   "_generic": {
     "mainPackageName": "riot-desktop",
     "mainPackageVersion": "1.6.0",
-    "sourcesCombinedHash": null,
+    "sourcesAggregatedHash": null,
     "subsystem": "nodejs",
     "translatedBy": "nodejs.pure.yarn-lock",
     "translator": "yarn-lock",
