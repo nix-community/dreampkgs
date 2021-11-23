@@ -17,7 +17,7 @@
 
     l = nixpkgs.lib // builtins;
 
-    supportedSystems = [ "x86_64-linux" ];
+    supportedSystems = [ "x86_64-linux" "x86_64-darwin" ];
 
     forAllSystems = f: l.genAttrs supportedSystems
       (system: f system (import nixpkgs { inherit system; }));

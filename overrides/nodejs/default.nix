@@ -366,7 +366,7 @@ in
   };
 
   mattermost-desktop = {
-    
+
     build = {
 
       nativeBuildInputs = [
@@ -381,7 +381,7 @@ in
 
         ${pkgs.jq}/bin/jq ".electronDist = \"$TMP/dist\"" electron-builder.json \
           | ${pkgs.moreutils}/bin/sponge electron-builder.json
-        
+
         ${pkgs.jq}/bin/jq ".linux.target = [\"dir\"]" electron-builder.json \
           | ${pkgs.moreutils}/bin/sponge electron-builder.json
       '';
@@ -489,7 +489,6 @@ in
   webpack = {
     remove-webpack-cli-check = {
       _condition = satisfiesSemver "^5.0.0";
-      ignoreScripts = false;
       patches = [
         ./webpack/remove-webpack-cli-check.patch
       ];
@@ -499,7 +498,6 @@ in
   webpack-cli = {
     remove-webpack-check = {
       _condition = satisfiesSemver "^4.0.0";
-      ignoreScripts = false;
       patches = [
         ./webpack-cli/remove-webpack-check.patch
       ];
@@ -535,8 +533,6 @@ in
 
       # custom webpack config
       postPatch = ''
-        # cp "${./. + "/@mattermost/webapp/webpack.config.js"}" webpack.config.js
-
         substituteInPlace webpack.config.js --replace \
           "crypto: require.resolve('crypto-browserify')," \
           "crypto: 'node_modules/crypto-browserify',"
