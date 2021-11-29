@@ -26,7 +26,6 @@ let
     "''${@:2}"
     if diff -q $file $TMP/ensureFileModified; then
       echo -e "file $file could not be modified as expected by command:\n  ''${@:2}"
-      cat $file
       exit 1
     fi
   '';
@@ -349,6 +348,7 @@ in
   gifsicle = {
     add-binary = {
       buildScript = ''
+        mkdir -p ./vendor
         ln -s ${pkgs.gifsicle}/bin/gifsicle ./vendor/gifsicle
         npm run postinstall
       '';
@@ -420,6 +420,7 @@ in
   mozjpeg = {
     add-binary = {
       buildScript = ''
+        mkdir -p ./vendor
         ln -s ${pkgs.mozjpeg}/bin/cjpeg ./vendor/cjpeg
         npm run postinstall
       '';
@@ -438,6 +439,7 @@ in
   optipng-bin = {
     add-binary = {
       buildScript = ''
+        mkdir -p ./vendor
         ln -s ${pkgs.optipng}/bin/optipng ./vendor/optipng
         npm run postinstall
       '';
@@ -447,6 +449,7 @@ in
   pngquant-bin = {
     add-binary = {
       buildScript = ''
+        mkdir -p ./vendor
         ln -s ${pkgs.pngquant}/bin/pngquant ./vendor/pngquant
         npm run postinstall
       '';
