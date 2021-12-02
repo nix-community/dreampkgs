@@ -25,7 +25,6 @@
     dream2nix = inp.dream2nix.lib.init {
       systems = supportedSystems;
       config = {
-        overridesDirs = [ ./overrides ];
         packagesDir = "./packages";
         repoName = "dreampkgs";
       };
@@ -38,7 +37,7 @@
           (pname:
             let
               outputs = dream2nix.riseAndShine {
-                dreamLock = "${self}/packages/${pname}/dream-lock.json";
+                source = "${self}/packages/${pname}/dream-lock.json";
               };
             in
               outputs.defaultPackage."${system}"
