@@ -11,7 +11,7 @@ It is valuable to get PRs and feedback to see what needs to be improved.
 
 See hydra jobs here: https://hydra.ngi0.nixos.org/jobset/dreampkgs/main#tabs-jobs
 
-To interact with the CLI, use nix 2.4 with enabled experimental features nix-command + flakes.
+To interact with the CLI, use nix 2.4+ with enabled experimental features nix-command + flakes.
 
 # Packaging workflow
 
