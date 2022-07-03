@@ -36,7 +36,7 @@
     supportedSystems = [ "x86_64-linux" "x86_64-darwin" ];
 
     forAllSystems = f: l.genAttrs supportedSystems
-      (system: f system (import nixpkgs { inherit system; }));
+      (system: f system nixpkgs.legacyPackages.${system});
 
     config = {
       repoName = "dreampkgs";
@@ -44,19 +44,23 @@
       packagesDir = "dream2nix-packages";
     };
 
-    dream2nix = inp.dream2nix.lib.init {
-      pkgs = inp.nixpkgs.legacyPackages.x86_64-linux;
-      inherit config;
-    };
+    dream2nixFor = forAllSystems (system: pkgs:
+      inp.dream2nix.lib.init {
+        pkgs = inp.nixpkgs.legacyPackages.${system};
+        inherit config;
+      }
+    );
 
-    mkOutputs = src: dream2nix.makeOutputs { source = src;};
+    mkOutputsFor = forAllSystems (system: pkgs:
+      src: dream2nixFor.${system}.makeOutputs { source = src;}
+    );
 
     /*
       # FIXME:
       This wrapper for `makeOutputs` is supposed to jump the discover phase.
       Executing discovery on many projects would be very inefficient.
     */
-    mkPackage =
+    mkPackageFor = forAllSystems (system: pkgs:
       {
         source,
         name,
@@ -67,7 +71,7 @@
         subsystemInfo ? {},
       }:
       let
-        outputs = dream2nix.makeOutputs {
+        outputs = dream2nixFor.${system}.makeOutputs {
           inherit packageOverrides source;
           discoveredProjects = [{
             inherit
@@ -82,13 +86,14 @@
           }];
         };
       in
-        outputs.packages.${name};
+        outputs.packages.${name}
+    );
 
 
     nodejsPackages = forAllSystems
       (system: pkgs: {
-        mattermost-webapp = (mkOutputs inp.src_mattermost-webapp).packages."@mattermost/webapp";
-        mattermost-desktop = (mkOutputs inp.src_mattermost-desktop).packages."mattermost-desktop";
+        mattermost-webapp = (mkOutputsFor.${system} inp.src_mattermost-webapp).packages."@mattermost/webapp";
+        mattermost-desktop = (mkOutputsFor.${system} inp.src_mattermost-desktop).packages."mattermost-desktop";
       });
 
     pythonPackages = forAllSystems
@@ -96,7 +101,7 @@
 
         # wrap mkPackage to automatically provide python project spec
         mkPythonPackage = name: args:
-          mkPackage (args // {
+          mkPackageFor.${system} (args // {
             inherit name;
             source = inp."src_${name}";
             subsystem = "python";
@@ -127,7 +132,9 @@
           nodejsPackages
           pythonPackages
           ;
-        packages.x86_64-linux = pythonPackages.x86_64-linux;
+        packages = forAllSystems (system: pkgs:
+          pythonPackages.${system}
+        );
         checks = self.packages;
       }
     ];
