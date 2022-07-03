@@ -1,0 +1,1092 @@
+{
+  "_generic": {
+    "defaultPackage": "spyder",
+    "invalidationHash": "fa7988e33cea902153fc342cb51ebf289c4f3131977d9ed0d431b487bfef1e9a",
+    "location": "",
+    "packages": {
+      "spyder": "5.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "python"
+  },
+  "_subsystem": {
+    "application": false,
+    "pythonAttr": "python39",
+    "sourceFormats": {
+      "Babel": "wheel",
+      "Jinja2": "wheel",
+      "MarkupSafe": "wheel",
+      "PyQt5": "wheel",
+      "PyQt5_Qt5": "wheel",
+      "PyQt5_sip": "wheel",
+      "PyQtWebEngine": "wheel",
+      "PyQtWebEngine_Qt5": "wheel",
+      "PyYAML": "wheel",
+      "Pygments": "wheel",
+      "QDarkStyle": "wheel",
+      "QtAwesome": "wheel",
+      "QtPy": "wheel",
+      "Rtree": "wheel",
+      "SecretStorage": "wheel",
+      "Sphinx": "wheel",
+      "alabaster": "wheel",
+      "arrow": "wheel",
+      "astroid": "wheel",
+      "atomicwrites": "wheel",
+      "attrs": "wheel",
+      "autopep8": "wheel",
+      "backcall": "wheel",
+      "beautifulsoup4": "wheel",
+      "binaryornot": "wheel",
+      "black": "wheel",
+      "bleach": "wheel",
+      "certifi": "wheel",
+      "cffi": "wheel",
+      "chardet": "wheel",
+      "charset_normalizer": "wheel",
+      "click": "wheel",
+      "cloudpickle": "wheel",
+      "cookiecutter": "wheel",
+      "cryptography": "wheel",
+      "debugpy": "wheel",
+      "decorator": "wheel",
+      "defusedxml": "wheel",
+      "diff_match_patch": "wheel",
+      "dill": "wheel",
+      "docutils": "wheel",
+      "entrypoints": "wheel",
+      "fastjsonschema": "wheel",
+      "flake8": "wheel",
+      "idna": "wheel",
+      "imagesize": "wheel",
+      "importlib_metadata": "wheel",
+      "inflection": "wheel",
+      "intervaltree": "sdist",
+      "ipykernel": "wheel",
+      "ipython": "wheel",
+      "ipython_genutils": "wheel",
+      "isort": "wheel",
+      "jedi": "wheel",
+      "jeepney": "wheel",
+      "jellyfish": "sdist",
+      "jinja2_time": "wheel",
+      "jsonschema": "wheel",
+      "jupyter_client": "wheel",
+      "jupyter_core": "wheel",
+      "jupyterlab_pygments": "wheel",
+      "keyring": "wheel",
+      "lazy_object_proxy": "wheel",
+      "matplotlib_inline": "wheel",
+      "mccabe": "wheel",
+      "mistune": "wheel",
+      "mypy_extensions": "wheel",
+      "nbclient": "wheel",
+      "nbconvert": "wheel",
+      "nbformat": "wheel",
+      "nest_asyncio": "wheel",
+      "numpydoc": "wheel",
+      "packaging": "wheel",
+      "pandocfilters": "wheel",
+      "parso": "wheel",
+      "pathspec": "wheel",
+      "pexpect": "wheel",
+      "pickleshare": "wheel",
+      "platformdirs": "wheel",
+      "pluggy": "wheel",
+      "prompt_toolkit": "wheel",
+      "psutil": "wheel",
+      "ptyprocess": "wheel",
+      "pycodestyle": "wheel",
+      "pycparser": "wheel",
+      "pydocstyle": "wheel",
+      "pyflakes": "wheel",
+      "pylint": "wheel",
+      "pyls_spyder": "wheel",
+      "pyparsing": "wheel",
+      "pyrsistent": "wheel",
+      "python_dateutil": "wheel",
+      "python_lsp_black": "wheel",
+      "python_lsp_jsonrpc": "wheel",
+      "python_lsp_server": "wheel",
+      "python_slugify": "wheel",
+      "pytz": "wheel",
+      "pyxdg": "wheel",
+      "pyzmq": "wheel",
+      "qstylizer": "wheel",
+      "qtconsole": "wheel",
+      "requests": "wheel",
+      "rope": "wheel",
+      "setuptools": "wheel",
+      "six": "wheel",
+      "snowballstemmer": "wheel",
+      "sortedcontainers": "wheel",
+      "soupsieve": "wheel",
+      "sphinxcontrib_applehelp": "wheel",
+      "sphinxcontrib_devhelp": "wheel",
+      "sphinxcontrib_htmlhelp": "wheel",
+      "sphinxcontrib_jsmath": "wheel",
+      "sphinxcontrib_qthelp": "wheel",
+      "sphinxcontrib_serializinghtml": "wheel",
+      "spyder_kernels": "wheel",
+      "text_unidecode": "wheel",
+      "textdistance": "wheel",
+      "three_merge": "wheel",
+      "tinycss2": "wheel",
+      "toml": "wheel",
+      "tomli": "wheel",
+      "tomlkit": "wheel",
+      "tornado": "wheel",
+      "traitlets": "wheel",
+      "typing_extensions": "wheel",
+      "ujson": "wheel",
+      "urllib3": "wheel",
+      "watchdog": "wheel",
+      "wcwidth": "wheel",
+      "webencodings": "wheel",
+      "wrapt": "wheel",
+      "wurlitzer": "wheel",
+      "yapf": "wheel",
+      "zipp": "wheel"
+    }
+  },
+  "sources": {
+    "Babel": {
+      "2.10.3": {
+        "hash": "sha256-/1b0iSwcS/DYFFdeojRxwjDVRCA8d0joxo8AiUeNSOs=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/B/Babel/Babel-2.10.3-py3-none-any.whl"
+      }
+    },
+    "Jinja2": {
+      "3.1.2": {
+        "hash": "sha256-YIiTC/4jnw5nEFRqucGcnvNeKXkolf7W5uMaAjoYKmE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/J/Jinja2/Jinja2-3.1.2-py3-none-any.whl"
+      }
+    },
+    "MarkupSafe": {
+      "2.1.1": {
+        "hash": "sha256-VkQoY+0rBtGcN/lNmZA14V7pgpiJIOEqW0uim2KtH3c=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/M/MarkupSafe/MarkupSafe-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "PyQt5": {
+      "5.15.7": {
+        "hash": "sha256-4xnJ2GOeBykjXBsJyZr9ra2W+j29g5KrVhtatZRu5u8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp37/P/PyQt5/PyQt5-5.15.7-cp37-abi3-manylinux1_x86_64.whl"
+      }
+    },
+    "PyQt5_Qt5": {
+      "5.15.2": {
+        "hash": "sha256-GYjzZOyMr4em7l1aOlIQ1XU5mIv46EcUx9YJcmkuL0o=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/P/PyQt5_Qt5/PyQt5_Qt5-5.15.2-py3-none-manylinux2014_x86_64.whl"
+      }
+    },
+    "PyQt5_sip": {
+      "12.11.0": {
+        "hash": "sha256-IF8+Gz7qNZfY6HiTbBoG4EvSOlnosXnugGRl1y7qMHE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/P/PyQt5_sip/PyQt5_sip-12.11.0-cp39-cp39-manylinux1_x86_64.whl"
+      }
+    },
+    "PyQtWebEngine": {
+      "5.15.6": {
+        "hash": "sha256-ZxELydW35jPcwkK4IozFSxUyq8A5/fU0s4OsQKYLe6M=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp37/P/PyQtWebEngine/PyQtWebEngine-5.15.6-cp37-abi3-manylinux1_x86_64.whl"
+      }
+    },
+    "PyQtWebEngine_Qt5": {
+      "5.15.2": {
+        "hash": "sha256-7CrLF4DAEk7wYMMQ4AynAfOI2LbDW7qRJ/em8NxTb3c=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/P/PyQtWebEngine_Qt5/PyQtWebEngine_Qt5-5.15.2-py3-none-manylinux2014_x86_64.whl"
+      }
+    },
+    "PyYAML": {
+      "6.0": {
+        "hash": "sha256-QFJ4VyUrYerNHZr1AMMze6jeuPwpiUApFIbEZci0bsA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/P/PyYAML/PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      }
+    },
+    "Pygments": {
+      "2.12.0": {
+        "hash": "sha256-3JwQ+0CUQmD27Uxojs4M0gSEFJQPHOpRuLImMYQRxRk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/P/Pygments/Pygments-2.12.0-py3-none-any.whl"
+      }
+    },
+    "QDarkStyle": {
+      "3.0.3": {
+        "hash": "sha256-68yxKSddumN6ES8Lf6EEDqUelZOOszKp9lPZY8Y6qRU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/Q/QDarkStyle/QDarkStyle-3.0.3-py2.py3-none-any.whl"
+      }
+    },
+    "QtAwesome": {
+      "1.1.1": {
+        "hash": "sha256-J9LivLNMtcmn9hwp80skv4nvUMef//enbv/lm/eB/O4=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/Q/QtAwesome/QtAwesome-1.1.1-py3-none-any.whl"
+      }
+    },
+    "QtPy": {
+      "2.1.0": {
+        "hash": "sha256-ruBYYIH5QwKTEr7Ozp9jl3sKnjeI93pqyMx0gCuxc9Y=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/Q/QtPy/QtPy-2.1.0-py3-none-any.whl"
+      }
+    },
+    "Rtree": {
+      "1.0.0": {
+        "hash": "sha256-pI9G27arDLE1pD2QUp4foJpt2AFJo0hE8q34QUtKtxo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/R/Rtree/Rtree-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "SecretStorage": {
+      "3.3.2": {
+        "hash": "sha256-dV3IRbatdty8vAfqPada5Uux6lKety0V+D0mSZpd8xk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/S/SecretStorage/SecretStorage-3.3.2-py3-none-any.whl"
+      }
+    },
+    "Sphinx": {
+      "5.0.2": {
+        "hash": "sha256-0+V2Y+7R18XFCJXRkf3toLVN7W9E1WIbUHCUZsM40eg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/S/Sphinx/Sphinx-5.0.2-py3-none-any.whl"
+      }
+    },
+    "alabaster": {
+      "0.7.12": {
+        "hash": "sha256-RGQ4vcyg4FvUXqLeFmjB2bAy4akVTCwlkJLXcDHd01k=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/a/alabaster/alabaster-0.7.12-py2.py3-none-any.whl"
+      }
+    },
+    "arrow": {
+      "1.2.2": {
+        "hash": "sha256-1iLEbKaBtbPjV0/LYKBOXMgbliURLV+ytEIgw2yJIXc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/a/arrow/arrow-1.2.2-py3-none-any.whl"
+      }
+    },
+    "astroid": {
+      "2.11.6": {
+        "hash": "sha256-ujOoKpqcBqXO7ZgYDFqrFuKcKFuCjZRpa/MtYBXqgqk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/a/astroid/astroid-2.11.6-py3-none-any.whl"
+      }
+    },
+    "atomicwrites": {
+      "1.4.0": {
+        "hash": "sha256-bReE3qfAyNSlFytsYg9AtuTL/flteDaR8uEwKnuI4Zc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/a/atomicwrites/atomicwrites-1.4.0-py2.py3-none-any.whl"
+      }
+    },
+    "attrs": {
+      "21.4.0": {
+        "hash": "sha256-LSfjeE16Vl02q4Uf6UiHxezNakYxaIdYMqG+ecgoKLQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/a/attrs/attrs-21.4.0-py2.py3-none-any.whl"
+      }
+    },
+    "autopep8": {
+      "1.6.0": {
+        "hash": "sha256-7XcTcZO7rFLQKaUsWb7BsGKbWhhsSV8eshsSasRmCD8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/a/autopep8/autopep8-1.6.0-py2.py3-none-any.whl"
+      }
+    },
+    "backcall": {
+      "0.2.0": {
+        "hash": "sha256-+7zmop8mMXih95FcGUC94OwrKpZ1Zv4cZcHft0Ir0lU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/b/backcall/backcall-0.2.0-py2.py3-none-any.whl"
+      }
+    },
+    "beautifulsoup4": {
+      "4.11.1": {
+        "hash": "sha256-WNXD0p9aNv/rlPAvDXhs1TAUz5s7OVHULgCA2KlJjTA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/b/beautifulsoup4/beautifulsoup4-4.11.1-py3-none-any.whl"
+      }
+    },
+    "binaryornot": {
+      "0.4.4": {
+        "hash": "sha256-uLcRc8kXvdzSwWBwQS42nD7X8FKJJvcMrBimyX/VY+Q=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/3.6/b/binaryornot/binaryornot-0.4.4-py2.py3-none-any.whl"
+      }
+    },
+    "black": {
+      "22.3.0": {
+        "hash": "sha256-buIntpbKYN0cUHvoCmvISaWmq1esc1Kq0f/snouAXyE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/b/black/black-22.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "bleach": {
+      "5.0.0": {
+        "hash": "sha256-CKH+htJTtciMksw9gQ/YBIoW0Vdi4eW3TVAiVuWSaqE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/b/bleach/bleach-5.0.0-py3-none-any.whl"
+      }
+    },
+    "certifi": {
+      "2022.6.15": {
+        "hash": "sha256-/oZBXVXoRxnXX4tpQU9kOKw1R9IHirkbZ+d572k3hBI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/certifi/certifi-2022.6.15-py3-none-any.whl"
+      }
+    },
+    "cffi": {
+      "1.15.0": {
+        "hash": "sha256-dP39v9xI0/RxSJdvSfqzJR5VCocgvryZvxSD9b+12z4=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/c/cffi/cffi-1.15.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      }
+    },
+    "chardet": {
+      "4.0.0": {
+        "hash": "sha256-+GQFTWb9kRjy5nBErImBpUd17FtnrtBEGJLttVPSHaU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/c/chardet/chardet-4.0.0-py2.py3-none-any.whl"
+      }
+    },
+    "charset_normalizer": {
+      "2.0.12": {
+        "hash": "sha256-aIHtvr2xezm06qqCG0OL9u3f+0RozzRPCfid7zSosd8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/charset_normalizer/charset_normalizer-2.0.12-py3-none-any.whl"
+      }
+    },
+    "click": {
+      "8.1.3": {
+        "hash": "sha256-u02BM8sVpgn0ToIT2bORsICXlQYpE7ODxivg7pWx20g=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/click/click-8.1.3-py3-none-any.whl"
+      }
+    },
+    "cloudpickle": {
+      "2.1.0": {
+        "hash": "sha256-tcQ091w0Yk7trToU8r5aw7U4R3TVsOPK+QXCFHnmxLE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/cloudpickle/cloudpickle-2.1.0-py3-none-any.whl"
+      }
+    },
+    "cookiecutter": {
+      "2.1.1": {
+        "hash": "sha256-nzqwJ87E9wkW4o8DRwvbQeY3o601S01lx2XZOq0WACI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/c/cookiecutter/cookiecutter-2.1.1-py2.py3-none-any.whl"
+      }
+    },
+    "cryptography": {
+      "37.0.2": {
+        "hash": "sha256-DMIPZVFX1M/HutqQncXMIoIRsHW6hAfEZGf2NZfHgXg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp36/c/cryptography/cryptography-37.0.2-cp36-abi3-manylinux_2_24_x86_64.whl"
+      }
+    },
+    "debugpy": {
+      "1.6.0": {
+        "hash": "sha256-DjqiNoiD6D57aJ3f88r7WV97cR9qBliGtGqWp/74dOc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/d/debugpy/debugpy-1.6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      }
+    },
+    "decorator": {
+      "5.1.1": {
+        "hash": "sha256-uMP4WQC53EIyJZE8WqzpRyn+H6l2OziTmpUibwLTcYY=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/d/decorator/decorator-5.1.1-py3-none-any.whl"
+      }
+    },
+    "defusedxml": {
+      "0.7.1": {
+        "hash": "sha256-o1Ln5Ch3AobMiZ4lQrbNrtsrSVP/JpohAQPsWPYZimE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/d/defusedxml/defusedxml-0.7.1-py2.py3-none-any.whl"
+      }
+    },
+    "diff_match_patch": {
+      "20200713": {
+        "hash": "sha256-i/nZxOBZ2Re1xjErrAwTeXGjKBXdvanGgrlJ8phrTTQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/d/diff_match_patch/diff_match_patch-20200713-py3-none-any.whl"
+      }
+    },
+    "dill": {
+      "0.3.5.1": {
+        "hash": "sha256-M1AdAycLvkEMcmObNQ6UGIKosP1VNXWA+8hz+6DFkwI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/d/dill/dill-0.3.5.1-py2.py3-none-any.whl"
+      }
+    },
+    "docutils": {
+      "0.18.1": {
+        "hash": "sha256-IwEPEpGACJ+807wIz+/Ms7iQsAUOHKAMhnA26dFhuYw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/d/docutils/docutils-0.18.1-py2.py3-none-any.whl"
+      }
+    },
+    "entrypoints": {
+      "0.4": {
+        "hash": "sha256-8XS1/4J1BP082XzD+GSfNpP1FTjH5L3z7wAshCnUL58=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/e/entrypoints/entrypoints-0.4-py3-none-any.whl"
+      }
+    },
+    "fastjsonschema": {
+      "2.15.3": {
+        "hash": "sha256-3bCx2CQ+bjq7givRTkR6ifSrdDk0KRLVkERIMfoAtqA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/3.7/f/fastjsonschema/fastjsonschema-2.15.3-py3-none-any.whl"
+      }
+    },
+    "flake8": {
+      "4.0.1": {
+        "hash": "sha256-R5sTBPclNqVZSMtAoy3Oi7D/41AeJuryksfmDrXgQo0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/f/flake8/flake8-4.0.1-py2.py3-none-any.whl"
+      }
+    },
+    "idna": {
+      "3.3": {
+        "hash": "sha256-hNndBH/6gFluDyRuLqsLOReIsFA1hOiUXyNoJW0nNf8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/idna/idna-3.3-py3-none-any.whl"
+      }
+    },
+    "imagesize": {
+      "1.3.0": {
+        "hash": "sha256-HbL4JSnlPD6SnokmofqSNaqC0L0MWANZxn7DGy/dqow=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/i/imagesize/imagesize-1.3.0-py2.py3-none-any.whl"
+      }
+    },
+    "importlib_metadata": {
+      "4.11.4": {
+        "hash": "sha256-xYyOuKdihY9J4YQ2/1Uug5FHeOUOnS8WYFNf+zZFUuw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/importlib_metadata/importlib_metadata-4.11.4-py3-none-any.whl"
+      }
+    },
+    "inflection": {
+      "0.5.1": {
+        "hash": "sha256-84srZAk4pPNa3mmsPQUwQpWbYqDxB2pbuqG5UmYFqKI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/i/inflection/inflection-0.5.1-py2.py3-none-any.whl"
+      }
+    },
+    "intervaltree": {
+      "-": {
+        "hash": "sha256-kCsbiJNpGPmyoZ4OXrfMtDCuRc3k856ks2kykg0zlS0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/source/i/intervaltree/intervaltree-3.1.0.tar.gz"
+      }
+    },
+    "ipykernel": {
+      "6.15.0": {
+        "hash": "sha256-ue1RminrgZ64Lofg03VAiCN7Iz5cZHuLsP8jyMcO0W8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/ipykernel/ipykernel-6.15.0-py3-none-any.whl"
+      }
+    },
+    "ipython": {
+      "7.34.0": {
+        "hash": "sha256-wXXSRAocr/dhFutxnUBTj7sxbiFO2oXFUVwwOqy/sj4=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/ipython/ipython-7.34.0-py3-none-any.whl"
+      }
+    },
+    "ipython_genutils": {
+      "0.2.0": {
+        "hash": "sha256-ct03IzeZ5hlmbJ9jmp2oPDQBOnPou8eaemNI2Txh+rg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/i/ipython_genutils/ipython_genutils-0.2.0-py2.py3-none-any.whl"
+      }
+    },
+    "isort": {
+      "5.10.1": {
+        "hash": "sha256-b2LXji+JtFALCA/jqBaQhQzSVCJ/J/dcOgxJGh81G6c=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/isort/isort-5.10.1-py3-none-any.whl"
+      }
+    },
+    "jedi": {
+      "0.18.1": {
+        "hash": "sha256-Y3yWNfz0eUXOuRzX8yAjSnvlQN7W8+maUMtv69/Ruo0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/j/jedi/jedi-0.18.1-py2.py3-none-any.whl"
+      }
+    },
+    "jeepney": {
+      "0.8.0": {
+        "hash": "sha256-wKRUrQFspXUGCALuTVkN2RLjXBIvoE5wMG3j0HbM51U=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/j/jeepney/jeepney-0.8.0-py3-none-any.whl"
+      }
+    },
+    "jellyfish": {
+      "-": {
+        "hash": "sha256-QMmi/9i9MBb3YR1CQSBEL2J/VtUYoQaEfck/Dq1q15o=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/source/j/jellyfish/jellyfish-0.9.0.tar.gz"
+      }
+    },
+    "jinja2_time": {
+      "0.2.0": {
+        "hash": "sha256-0+q2YF4+yLeghj3wnMHSNxSQj6YapphqhFwgukiLTvo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/j/jinja2_time/jinja2_time-0.2.0-py2.py3-none-any.whl"
+      }
+    },
+    "jsonschema": {
+      "4.6.0": {
+        "hash": "sha256-HJLS2xkAtmggHxeXiH1mRTqx+/6lHfjktGI2aJxCe68=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/j/jsonschema/jsonschema-4.6.0-py3-none-any.whl"
+      }
+    },
+    "jupyter_client": {
+      "7.3.4": {
+        "hash": "sha256-F9dLDQp7JPHIxSeyT89GB8Vr7lQv/o40GOULIeUUtiE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/j/jupyter_client/jupyter_client-7.3.4-py3-none-any.whl"
+      }
+    },
+    "jupyter_core": {
+      "4.10.0": {
+        "hash": "sha256-5/UhIXeverNBeWkBQPGIqpvz0yLYFV7Zcsve0Z9VtvM=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/j/jupyter_core/jupyter_core-4.10.0-py3-none-any.whl"
+      }
+    },
+    "jupyterlab_pygments": {
+      "0.2.2": {
+        "hash": "sha256-JAWADbB8n3cIY7z4BJpSnD3U0+KFNmOL18HAHSdIMJ8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/j/jupyterlab_pygments/jupyterlab_pygments-0.2.2-py2.py3-none-any.whl"
+      }
+    },
+    "keyring": {
+      "23.6.0": {
+        "hash": "sha256-Ny/y/EOrd54/h5EcJubHrMi7RAy9gmg+ODyjdZTLBhc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/k/keyring/keyring-23.6.0-py3-none-any.whl"
+      }
+    },
+    "lazy_object_proxy": {
+      "1.7.1": {
+        "hash": "sha256-cJal4MERXsgmQa+91wRRoURVjqXPVkqJYpTjRuthG+E=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/l/lazy_object_proxy/lazy_object_proxy-1.7.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "matplotlib_inline": {
+      "0.1.3": {
+        "hash": "sha256-rtYFujtyRi1k1HWiGpKW9AChnE90oxtZED0qmf/Vqlw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/m/matplotlib_inline/matplotlib_inline-0.1.3-py3-none-any.whl"
+      }
+    },
+    "mccabe": {
+      "0.6.1": {
+        "hash": "sha256-q4piWIYNpLZnfaS9L+XcLGWc/zGz7k9/XWTnlzW4DUI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/m/mccabe/mccabe-0.6.1-py2.py3-none-any.whl"
+      }
+    },
+    "mistune": {
+      "0.8.4": {
+        "hash": "sha256-iKEFGHMBjaKI7uhTjUdt/+EmJJUUSzPstYbEqyZruNQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/m/mistune/mistune-0.8.4-py2.py3-none-any.whl"
+      }
+    },
+    "mypy_extensions": {
+      "0.4.3": {
+        "hash": "sha256-CQ/t11lFpprpHOEwO1gk9Cja9aAo0variimSUKhG8V0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/m/mypy_extensions/mypy_extensions-0.4.3-py2.py3-none-any.whl"
+      }
+    },
+    "nbclient": {
+      "0.6.4": {
+        "hash": "sha256-8lG7ogCitAGgYd/XAKenC1dy9mT7SdSi0+VTbsDpjHY=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/n/nbclient/nbclient-0.6.4-py3-none-any.whl"
+      }
+    },
+    "nbconvert": {
+      "6.5.0": {
+        "hash": "sha256-xW3QuJeKGBGlZU90xyf/FsqH3VpDq9Q1ocSbhA/Ng2A=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/n/nbconvert/nbconvert-6.5.0-py3-none-any.whl"
+      }
+    },
+    "nbformat": {
+      "5.4.0": {
+        "hash": "sha256-DWByquyV3dw5c1wUTui7xlicOD+0YuQFiryFU0gVLa0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/n/nbformat/nbformat-5.4.0-py3-none-any.whl"
+      }
+    },
+    "nest_asyncio": {
+      "1.5.5": {
+        "hash": "sha256-uY4+wbJGE15GQuzv+lpsI6OrEsgv+BapLGEtaCBYE7I=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/n/nest_asyncio/nest_asyncio-1.5.5-py3-none-any.whl"
+      }
+    },
+    "numpydoc": {
+      "1.4.0": {
+        "hash": "sha256-/SYliGjrzHXIFv5o4dQeO1W9QQlBrPuWne4+725c8mA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/n/numpydoc/numpydoc-1.4.0-py3-none-any.whl"
+      }
+    },
+    "packaging": {
+      "21.3": {
+        "hash": "sha256-7xA+BfUZzceDriTqTi4PUIqcmbLUlpZS7tai4epb1SI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/packaging/packaging-21.3-py3-none-any.whl"
+      }
+    },
+    "pandocfilters": {
+      "1.5.0": {
+        "hash": "sha256-M6rj8l/RoCYHn10nvdUklvDggDs0aSghYrr9y99u8U8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pandocfilters/pandocfilters-1.5.0-py2.py3-none-any.whl"
+      }
+    },
+    "parso": {
+      "0.8.3": {
+        "hash": "sha256-wAHUY2zTrs2vM8u0Cuu1mwlL4qdMVWd471V2wXXhnnU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/parso/parso-0.8.3-py2.py3-none-any.whl"
+      }
+    },
+    "pathspec": {
+      "0.9.0": {
+        "hash": "sha256-fRXE3bC1yALRYe/EF+waJVjqJlPC6K2cGQmCAdwcmTo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/3.6/p/pathspec/pathspec-0.9.0-py2.py3-none-any.whl"
+      }
+    },
+    "pexpect": {
+      "4.8.0": {
+        "hash": "sha256-C0ilXcs8BfMymBWQHqT8FTdRTWuoZ6FStYHWmuNxCTc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pexpect/pexpect-4.8.0-py2.py3-none-any.whl"
+      }
+    },
+    "pickleshare": {
+      "0.7.5": {
+        "hash": "sha256-lkmvQU101N8RXV1xj4KstZydQYGWt7QpDtR6Es5i31Y=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pickleshare/pickleshare-0.7.5-py2.py3-none-any.whl"
+      }
+    },
+    "platformdirs": {
+      "2.5.2": {
+        "hash": "sha256-An2Og6LX3ga7rE5e9+AjwCuGPX6l0HlHfnIrtBqyV4g=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/platformdirs/platformdirs-2.5.2-py3-none-any.whl"
+      }
+    },
+    "pluggy": {
+      "1.0.0": {
+        "hash": "sha256-dBNLv0V/Axo21oQW4VCfNL1czAGfC8yVLHuQnQaze9M=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pluggy/pluggy-1.0.0-py2.py3-none-any.whl"
+      }
+    },
+    "prompt_toolkit": {
+      "3.0.29": {
+        "hash": "sha256-YikdrUleZl/KC9qBTjQsaZUghq+w9AlNCJPTV+XHh1I=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/prompt_toolkit/prompt_toolkit-3.0.29-py3-none-any.whl"
+      }
+    },
+    "psutil": {
+      "5.9.1": {
+        "hash": "sha256-ZFvU97tbhjOAPgtnRv8WKHJGaGgaQ0SCVGiH0ix6lTc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/p/psutil/psutil-5.9.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "ptyprocess": {
+      "0.7.0": {
+        "hash": "sha256-S0Hzln/OOvV8x+lLiIYmwYvzegg+NlHKj+62bUkv7zU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/ptyprocess/ptyprocess-0.7.0-py2.py3-none-any.whl"
+      }
+    },
+    "pycodestyle": {
+      "2.8.0": {
+        "hash": "sha256-cg+LOd3ospOCXn/wLEdfMHcSQAbbT0QNy8miC3ZUiiA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pycodestyle/pycodestyle-2.8.0-py2.py3-none-any.whl"
+      }
+    },
+    "pycparser": {
+      "2.21": {
+        "hash": "sha256-juRUKVVVFeH2sYXngQCuojQHJXaqQ6tTrvyuB4Fi/Kk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pycparser/pycparser-2.21-py2.py3-none-any.whl"
+      }
+    },
+    "pydocstyle": {
+      "6.1.1": {
+        "hash": "sha256-aYeCbWd1BWg5lABBvu9cCMx+PXHWMUm0jjZyf3AUTcQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/pydocstyle/pydocstyle-6.1.1-py3-none-any.whl"
+      }
+    },
+    "pyflakes": {
+      "2.4.0": {
+        "hash": "sha256-O7Oj8lb0t5aMnHiHgeT/B9zka98SM53NphBTN1Qm7i4=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pyflakes/pyflakes-2.4.0-py2.py3-none-any.whl"
+      }
+    },
+    "pylint": {
+      "2.14.3": {
+        "hash": "sha256-Z1egJ+FYFr4jYlsHnrxFRk5MnZ3eDIJtGL7uU/4iouc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/pylint/pylint-2.14.3-py3-none-any.whl"
+      }
+    },
+    "pyls_spyder": {
+      "0.4.0": {
+        "hash": "sha256-FQXZdfhmo0PQVUttq0G1Nxf0tLxt9FDf19SPiJ/kULk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/pyls_spyder/pyls_spyder-0.4.0-py3-none-any.whl"
+      }
+    },
+    "pyparsing": {
+      "3.0.9": {
+        "hash": "sha256-UCa66aEO6u+2HasvCQUrn0MH1EruTtpkswlyPY0ga7w=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/pyparsing/pyparsing-3.0.9-py3-none-any.whl"
+      }
+    },
+    "pyrsistent": {
+      "0.18.1": {
+        "hash": "sha256-a8ZjGPt+4BIHGyeSAkVklz7MgOlSKELrThd0NgS14EU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/p/pyrsistent/pyrsistent-0.18.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "python_dateutil": {
+      "2.8.2": {
+        "hash": "sha256-lh0D3DRT67xZ296p5OEcVlFSCodtD02xYehnSq6TXak=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/python_dateutil/python_dateutil-2.8.2-py2.py3-none-any.whl"
+      }
+    },
+    "python_lsp_black": {
+      "1.2.1": {
+        "hash": "sha256-l5PmkSL3q1Hf+pgPAm5Fa0vmKjQA31yJtuz5J4t0kTo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/python_lsp_black/python_lsp_black-1.2.1-py3-none-any.whl"
+      }
+    },
+    "python_lsp_jsonrpc": {
+      "1.0.0": {
+        "hash": "sha256-B5sUO+ZLCjeL2yHf9eKKjBOT/n6KZU7waDItdU5UX8c=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/python_lsp_jsonrpc/python_lsp_jsonrpc-1.0.0-py3-none-any.whl"
+      }
+    },
+    "python_lsp_server": {
+      "1.4.1": {
+        "hash": "sha256-5r0M+VMNjiujucCuELmaFsM4CLyacmav7MOQABezUyY=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/python_lsp_server/python_lsp_server-1.4.1-py3-none-any.whl"
+      }
+    },
+    "python_slugify": {
+      "6.1.2": {
+        "hash": "sha256-eywnTDCLYvQmmpunAappp5fpvKQa7uWzqeeeNrZlaSc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/python_slugify/python_slugify-6.1.2-py2.py3-none-any.whl"
+      }
+    },
+    "pytz": {
+      "2022.1": {
+        "hash": "sha256-5omFmFKW2aZqiB6zGTsJBiRiRSlKiB58iv5iOGasalw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pytz/pytz-2022.1-py2.py3-none-any.whl"
+      }
+    },
+    "pyxdg": {
+      "0.28": {
+        "hash": "sha256-va9ZWZmgF47OpAUrf0GVVpwf9NNEVnvM3BLf3wLVRas=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/p/pyxdg/pyxdg-0.28-py2.py3-none-any.whl"
+      }
+    },
+    "pyzmq": {
+      "23.1.0": {
+        "hash": "sha256-s7w88gCqt089dYWGrFApUhTtpJasamY24MiBxZWNkSM=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/p/pyzmq/pyzmq-23.1.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      }
+    },
+    "qstylizer": {
+      "0.2.1": {
+        "hash": "sha256-1UyszgRjVUjkGBjhwyhyzDyS1+tB6Ld5IfIK2u5WQ5Q=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/q/qstylizer/qstylizer-0.2.1-py2.py3-none-any.whl"
+      }
+    },
+    "qtconsole": {
+      "5.3.1": {
+        "hash": "sha256-02RZLX7eMlfx4X/Nv9M5wm4sxjjKT6TuVqck4m6hPIE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/q/qtconsole/qtconsole-5.3.1-py3-none-any.whl"
+      }
+    },
+    "requests": {
+      "2.28.0": {
+        "hash": "sha256-vHhhE3+85jDxewPTrQKtC/l4yETzU20O3aZJna/OK28=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/r/requests/requests-2.28.0-py3-none-any.whl"
+      }
+    },
+    "rope": {
+      "1.1.1": {
+        "hash": "sha256-IWOQtjQr3o7x8npmY1VN4OoLH9rXxCHes9Wj9sX8Aec=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/r/rope/rope-1.1.1-py3-none-any.whl"
+      }
+    },
+    "setuptools": {
+      "62.6.0": {
+        "hash": "sha256-wYSPZUrqLjUm0X/DzmrqpefiTmbmRbW+IXHz9rTloXg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/s/setuptools/setuptools-62.6.0-py3-none-any.whl"
+      }
+    },
+    "six": {
+      "1.16.0": {
+        "hash": "sha256-irsvHYaJCi37mJ+ad8/P0+R8KjVLAREXcTJviqJuAlQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/six/six-1.16.0-py2.py3-none-any.whl"
+      }
+    },
+    "snowballstemmer": {
+      "2.2.0": {
+        "hash": "sha256-yOFxboPMOYrhaCTlVyrgTg2fwsa5hfsPkA9fDJbsuho=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/snowballstemmer/snowballstemmer-2.2.0-py2.py3-none-any.whl"
+      }
+    },
+    "sortedcontainers": {
+      "2.4.0": {
+        "hash": "sha256-oWPcrt4PHAIUhelXo5JFGQ50JJiX4q5LKqOFldsjfuA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sortedcontainers/sortedcontainers-2.4.0-py2.py3-none-any.whl"
+      }
+    },
+    "soupsieve": {
+      "2.3.2.post1": {
+        "hash": "sha256-OyUD08cISkKx69CBFuX4Gq366pWGNijICjt3ShG3x1k=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/s/soupsieve/soupsieve-2.3.2.post1-py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_applehelp": {
+      "1.0.2": {
+        "hash": "sha256-gGER5elivpfCnsTB5/4ne/0Z6WUvsaQ5IQW0PgGviFo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_applehelp/sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_devhelp": {
+      "1.0.2": {
+        "hash": "sha256-gWUiP5ozXMGvf/4e0x0ocfMlJUwEI7wMTHzRweRzSi4=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_devhelp/sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_htmlhelp": {
+      "2.0.0": {
+        "hash": "sha256-1BIkPft5euPsK1nsoOUtrBLnWiQb8OTrhh5FDQbG7Qc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_htmlhelp/sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_jsmath": {
+      "1.0.1": {
+        "hash": "sha256-LsLq6/t48/IHjnNmaxQVQXoRbMhIty5RcuWWyHEQMXg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_jsmath/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_qthelp": {
+      "1.0.3": {
+        "hash": "sha256-vZ/CS8t0io1R/U7KreaBNQqmMAmjR6jBTmN4lURN+rY=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_qthelp/sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl"
+      }
+    },
+    "sphinxcontrib_serializinghtml": {
+      "1.1.5": {
+        "hash": "sha256-NSqaAK6GRHHTp+rY19efX8C1fos/lemGfrnrKJmbkv0=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/sphinxcontrib_serializinghtml/sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl"
+      }
+    },
+    "spyder_kernels": {
+      "2.3.1": {
+        "hash": "sha256-/4RH4vQcEX+SXyN9Ncviz/H5lcVHGw8PqM5kh/c/Vaw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/s/spyder_kernels/spyder_kernels-2.3.1-py2.py3-none-any.whl"
+      }
+    },
+    "text_unidecode": {
+      "1.3": {
+        "hash": "sha256-ExHxDouJWTUkFiNzHCumT0xFUoeIixgYk1C2cTSoIug=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/t/text_unidecode/text_unidecode-1.3-py2.py3-none-any.whl"
+      }
+    },
+    "textdistance": {
+      "4.2.2": {
+        "hash": "sha256-snitlEUl5b6xF6+Q1y1XkiXrLSCyb3jUwT/ZZRQXTZg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/textdistance/textdistance-4.2.2-py3-none-any.whl"
+      }
+    },
+    "three_merge": {
+      "0.1.1": {
+        "hash": "sha256-3SGfRpaqC77GCZrDUotN4EUP+b3oYt2PbW9S50X4NGQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/t/three_merge/three_merge-0.1.1-py2.py3-none-any.whl"
+      }
+    },
+    "tinycss2": {
+      "1.1.1": {
+        "hash": "sha256-/nlM6q3+PPPmhrIhVdDaV4DdDic0caUYRtCgK8IE/sg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/tinycss2/tinycss2-1.1.1-py3-none-any.whl"
+      }
+    },
+    "toml": {
+      "0.10.2": {
+        "hash": "sha256-gGFDrlv7ajxuc2p2QFfbDmoOBeM4tWMIlKX3ecq7T5s=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/t/toml/toml-0.10.2-py2.py3-none-any.whl"
+      }
+    },
+    "tomli": {
+      "2.0.1": {
+        "hash": "sha256-k53j56YWGvDIh++Rt9QaU+fFocqXYyX0KctG6pvDDsw=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/tomli/tomli-2.0.1-py3-none-any.whl"
+      }
+    },
+    "tomlkit": {
+      "0.11.0": {
+        "hash": "sha256-D0BQ22b9RFuIV3iQDOTdmuqMkMRyEUH94Nat6JOCDvE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/tomlkit/tomlkit-0.11.0-py3-none-any.whl"
+      }
+    },
+    "tornado": {
+      "6.1": {
+        "hash": "sha256-ZjJOThvu3prHnmD4jeVI2lix+KtLLxNU2DdXdPmX5sA=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/t/tornado/tornado-6.1-cp39-cp39-manylinux2010_x86_64.whl"
+      }
+    },
+    "traitlets": {
+      "5.3.0": {
+        "hash": "sha256-ZfoYlhZZY1kzEA24yhIO9iIFVShpSXdLnPwQb5QdHHo=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/traitlets/traitlets-5.3.0-py3-none-any.whl"
+      }
+    },
+    "typing_extensions": {
+      "4.2.0": {
+        "hash": "sha256-ZldZTuKXFw0Z9n1VwFhSqHTn62NPT3U9vWZ4VeB8Fwg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/t/typing_extensions/typing_extensions-4.2.0-py3-none-any.whl"
+      }
+    },
+    "ujson": {
+      "5.3.0": {
+        "hash": "sha256-KH3qeUc85JQVmMRdw0+faS1I14Y7RRVBxc6WCrVEZfs=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/u/ujson/ujson-5.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "urllib3": {
+      "1.26.9": {
+        "hash": "sha256-ROzk1T+xcG9mfJvRxkj1RpouySX886d2ZnBC1kVHLBQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/u/urllib3/urllib3-1.26.9-py2.py3-none-any.whl"
+      }
+    },
+    "watchdog": {
+      "2.1.9": {
+        "hash": "sha256-T04cSqVPuGMWpiqHszeMAl4igXjVVIHTDYV8bEOIl9Y=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/w/watchdog/watchdog-2.1.9-py3-none-manylinux2014_x86_64.whl"
+      }
+    },
+    "wcwidth": {
+      "0.2.5": {
+        "hash": "sha256-vrSAKpzruRROmQhu/3A6ZCoT1qAFKSAAOiMPMpS754Q=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/w/wcwidth/wcwidth-0.2.5-py2.py3-none-any.whl"
+      }
+    },
+    "webencodings": {
+      "0.5.1": {
+        "hash": "sha256-oK8SE/PCImSXqX4rOqAafkvuT0A/lb4W/JrNKUdRSng=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/w/webencodings/webencodings-0.5.1-py2.py3-none-any.whl"
+      }
+    },
+    "wrapt": {
+      "1.14.1": {
+        "hash": "sha256-QOe8gcnisnNOpLwazrio8M6qx8Upm8XWnjfETZCB1Ds=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/w/wrapt/wrapt-1.14.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "wurlitzer": {
+      "3.0.2": {
+        "hash": "sha256-N/PtGwi/iHFy7af1F3QXJB7FTN1ecN90yS2Wh1zv9jI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/w/wurlitzer/wurlitzer-3.0.2-py3-none-any.whl"
+      }
+    },
+    "yapf": {
+      "0.32.0": {
+        "hash": "sha256-j+qEkCVYTkhv0G1ror7XF/OWCA/TzCNroQy5fExRzzI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/y/yapf/yapf-0.32.0-py2.py3-none-any.whl"
+      }
+    },
+    "zipp": {
+      "3.8.0": {
+        "hash": "sha256-xPblu/SOdPejjnzFsEgP9CsK5ReJV9Vk0YkyUl1c8Jk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/z/zipp/zipp-3.8.0-py3-none-any.whl"
+      }
+    }
+  }
+}

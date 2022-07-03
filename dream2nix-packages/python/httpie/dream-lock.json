@@ -1,0 +1,132 @@
+{
+  "_generic": {
+    "defaultPackage": "httpie",
+    "invalidationHash": "53beb08db456fbbced9699c8b1769f8bfff9c6b8f841846ee7d106e3bfdf783b",
+    "location": "",
+    "packages": {
+      "httpie": "3.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "python"
+  },
+  "_subsystem": {
+    "application": false,
+    "pythonAttr": "python39",
+    "sourceFormats": {
+      "PySocks": "wheel",
+      "Pygments": "wheel",
+      "certifi": "wheel",
+      "charset_normalizer": "wheel",
+      "commonmark": "wheel",
+      "defusedxml": "wheel",
+      "idna": "wheel",
+      "multidict": "wheel",
+      "pip": "wheel",
+      "requests": "wheel",
+      "requests_toolbelt": "wheel",
+      "rich": "wheel",
+      "setuptools": "wheel",
+      "urllib3": "wheel"
+    }
+  },
+  "sources": {
+    "PySocks": {
+      "1.7.1": {
+        "hash": "sha256-JyW9CpklkZubUXOe6l+eK66R6DKIEIqa0ziy46RDXuU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/P/PySocks/PySocks-1.7.1-py3-none-any.whl"
+      }
+    },
+    "Pygments": {
+      "2.12.0": {
+        "hash": "sha256-3JwQ+0CUQmD27Uxojs4M0gSEFJQPHOpRuLImMYQRxRk=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/P/Pygments/Pygments-2.12.0-py3-none-any.whl"
+      }
+    },
+    "certifi": {
+      "2022.6.15": {
+        "hash": "sha256-/oZBXVXoRxnXX4tpQU9kOKw1R9IHirkbZ+d572k3hBI=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/certifi/certifi-2022.6.15-py3-none-any.whl"
+      }
+    },
+    "charset_normalizer": {
+      "2.1.0": {
+        "hash": "sha256-UYm28isBlXQn81tqCNmgvEW0bTeI71qS6XhDPHo1+KU=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/c/charset_normalizer/charset_normalizer-2.1.0-py3-none-any.whl"
+      }
+    },
+    "commonmark": {
+      "0.9.1": {
+        "hash": "sha256-2i84ySWQ+D3kELoaPLzq+8dP7p3vNfklG6mpcdbWb9k=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/c/commonmark/commonmark-0.9.1-py2.py3-none-any.whl"
+      }
+    },
+    "defusedxml": {
+      "0.7.1": {
+        "hash": "sha256-o1Ln5Ch3AobMiZ4lQrbNrtsrSVP/JpohAQPsWPYZimE=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/d/defusedxml/defusedxml-0.7.1-py2.py3-none-any.whl"
+      }
+    },
+    "idna": {
+      "3.3": {
+        "hash": "sha256-hNndBH/6gFluDyRuLqsLOReIsFA1hOiUXyNoJW0nNf8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/i/idna/idna-3.3-py3-none-any.whl"
+      }
+    },
+    "multidict": {
+      "6.0.2": {
+        "hash": "sha256-v7p8bV18kJm6IfhGYrA3oP/UpeayasB9GeQj5v35Zak=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/cp39/m/multidict/multidict-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      }
+    },
+    "pip": {
+      "22.1.2": {
+        "hash": "sha256-o+2suJAi71JYv2GFJyi/hmYyo5Tag3yknrQwNjWDXxc=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/p/pip/pip-22.1.2-py3-none-any.whl"
+      }
+    },
+    "requests": {
+      "2.28.1": {
+        "hash": "sha256-j++ioaE2W/VSCqxBg2++5HnaZ4ZFFL24IfMc4HzmU0k=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/r/requests/requests-2.28.1-py3-none-any.whl"
+      }
+    },
+    "requests_toolbelt": {
+      "0.9.1": {
+        "hash": "sha256-OAYG4dENyFw71Hv1pglfgV7AB756i2nIeFBwaN8Fnm8=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/r/requests_toolbelt/requests_toolbelt-0.9.1-py2.py3-none-any.whl"
+      }
+    },
+    "rich": {
+      "12.4.4": {
+        "hash": "sha256-0rvZnDIKJTKscf9qMWSGeIQ1faPjMB8CQAkMXS/ax+w=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/r/rich/rich-12.4.4-py3-none-any.whl"
+      }
+    },
+    "setuptools": {
+      "62.6.0": {
+        "hash": "sha256-wYSPZUrqLjUm0X/DzmrqpefiTmbmRbW+IXHz9rTloXg=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py3/s/setuptools/setuptools-62.6.0-py3-none-any.whl"
+      }
+    },
+    "urllib3": {
+      "1.26.9": {
+        "hash": "sha256-ROzk1T+xcG9mfJvRxkj1RpouySX886d2ZnBC1kVHLBQ=",
+        "type": "http",
+        "url": "https://files.pythonhosted.org/packages/py2.py3/u/urllib3/urllib3-1.26.9-py2.py3-none-any.whl"
+      }
+    }
+  }
+}
