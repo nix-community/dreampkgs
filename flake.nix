@@ -12,6 +12,8 @@
     src_mattermost-webapp.flake = false;
     src_mattermost-desktop.url = "github:mattermost/desktop/v5.0.1";
     src_mattermost-desktop.flake = false;
+    src_ratel.url = "github:dgraph-io/ratel/21.03";
+    src_ratel.flake = false;
 
     # python sources
     src_orange3.url = "github:biolab/orange3/3.32.0";
@@ -94,6 +96,7 @@
       (system: pkgs: {
         mattermost-webapp = (mkOutputsFor.${system} inp.src_mattermost-webapp).packages."@mattermost/webapp";
         mattermost-desktop = (mkOutputsFor.${system} inp.src_mattermost-desktop).packages."mattermost-desktop";
+        ratel = (mkOutputsFor.${system} inp.src_ratel).packages."ratel-client";
       });
 
     pythonPackages = forAllSystems
@@ -133,7 +136,7 @@
           pythonPackages
           ;
         packages = forAllSystems (system: pkgs:
-          pythonPackages.${system}
+          pythonPackages.${system} // nodejsPackages.${system}
         );
         checks = self.packages;
       }

@@ -228,6 +228,7 @@
         "src_mattermost-desktop": "src_mattermost-desktop",
         "src_mattermost-webapp": "src_mattermost-webapp",
         "src_orange3": "src_orange3",
+        "src_ratel": "src_ratel",
         "src_urh": "src_urh"
       }
     },
@@ -323,6 +324,23 @@
         "owner": "biolab",
         "ref": "3.32.0",
         "repo": "orange3",
+        "type": "github"
+      }
+    },
+    "src_ratel": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620712802,
+        "narHash": "sha256-9eS8Jk45tWOjbSxxboyHglzK0RjULScXIFc7kOOSdTg=",
+        "owner": "dgraph-io",
+        "repo": "ratel",
+        "rev": "9bff41707680afb67b11625672dc7e3584a773a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dgraph-io",
+        "ref": "21.03",
+        "repo": "ratel",
         "type": "github"
       }
     },
