@@ -2,7 +2,7 @@
   description = "A collection of software packages managed with dream2nix";
 
   inputs = {
-    dream2nix.url = "path:/home/patriot/proj/dream2nix";
+    dream2nix.url = "github:nix-community/dream2nix";
     nixpkgs.url = "nixpkgs/nixos-unstable";
 
     dream2nix.inputs.nixpkgs.follows = "nixpkgs";
