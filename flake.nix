@@ -2,7 +2,7 @@
   description = "A collection of software packages managed with dream2nix";
 
   inputs = {
-    dream2nix.url = "github:nix-community/dream2nix";
+    dream2nix.url = "path:/home/patriot/proj/dream2nix";
     nixpkgs.url = "nixpkgs/nixos-unstable";
 
     dream2nix.inputs.nixpkgs.follows = "nixpkgs";
@@ -21,6 +21,18 @@
     src_labelme = {flake = false; url = "github:wkentaro/labelme";};
     src_urh = {flake = false; url = "github:jopohl/urh";};
     src_httpie = {flake = false; url = "github:httpie/httpie";};
+    
+    # rust sources
+    src_zellij.url = "github:zellij-org/zellij/v0.30.0";
+    src_zellij.flake = false;
+    src_ripgrep.url = "github:burntsushi/ripgrep/13.0.0";
+    src_ripgrep.flake = false;
+    src_amber.url = "github:dalance/amber/v0.5.9";
+    src_amber.flake = false;
+    src_eureka.url = "github:simeg/eureka/v2.0.0";
+    src_eureka.flake = false;
+    src_resvg.url = "github:RazrFalcon/resvg/v0.23.0";
+    src_resvg.flake = false;
   };
 
   outputs = {
@@ -42,6 +54,7 @@
       repoName = "dreampkgs";
       projectRoot = ./.;
       packagesDir = "dream2nix-packages";
+      disableIfdWarning = true;
     };
 
     dream2nixFor = forAllSystems (system: pkgs:
@@ -52,7 +65,11 @@
     );
 
     mkOutputsFor = forAllSystems (system: pkgs:
-      src: dream2nixFor.${system}.makeOutputs { source = src;}
+      attrs: dream2nixFor.${system}.makeOutputs (
+        if l.isAttrs attrs && (! attrs ? outPath)
+        then attrs
+        else {source = attrs;}
+      )
     );
 
     /*
@@ -124,6 +141,20 @@
           };
         };
       });
+      
+    rustPackages =
+      forAllSystems (system: pkgs:
+        let
+          mkPackageFor = src: name:
+            (mkOutputsFor.${system} {
+              source = src;
+              settings = [{builder = "crane";}];
+            }).packages.${name};
+        in
+          l.genAttrs
+          ["zellij" "ripgrep" "amber" "resvg" "eureka"]
+          (name: mkPackageFor inp."src_${name}" name)
+      );
   in
     l.foldl' l.recursiveUpdate {}
     [
@@ -131,9 +162,11 @@
         inherit
           nodejsPackages
           pythonPackages
+          rustPackages
           ;
         packages = forAllSystems (system: pkgs:
           pythonPackages.${system}
+          // rustPackages.${system}
         );
         checks = self.packages;
       }

@@ -70,17 +70,14 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1656847555,
-        "narHash": "sha256-/ArQ6Pn94EblqGYkU0Wc1fb0GUd3r4sbhM3qmbT/nkI=",
-        "owner": "nix-community",
-        "repo": "dream2nix",
-        "rev": "47ed5ee21b52fab3300f708b0ca2faeeb4f75ddf",
-        "type": "github"
+        "lastModified": 1657901293,
+        "narHash": "sha256-DB6em+KYkWzPjNIhHIY6ZlnJyMGndy68o8u9PPyu1XQ=",
+        "path": "/home/patriot/proj/dream2nix",
+        "type": "path"
       },
       "original": {
-        "owner": "nix-community",
-        "repo": "dream2nix",
-        "type": "github"
+        "path": "/home/patriot/proj/dream2nix",
+        "type": "path"
       }
     },
     "flake-utils-pre-commit": {
@@ -222,13 +219,52 @@
       "inputs": {
         "dream2nix": "dream2nix",
         "nixpkgs": "nixpkgs",
+        "src_amber": "src_amber",
+        "src_eureka": "src_eureka",
         "src_httpie": "src_httpie",
         "src_labelimg": "src_labelimg",
         "src_labelme": "src_labelme",
         "src_mattermost-desktop": "src_mattermost-desktop",
         "src_mattermost-webapp": "src_mattermost-webapp",
         "src_orange3": "src_orange3",
-        "src_urh": "src_urh"
+        "src_resvg": "src_resvg",
+        "src_ripgrep": "src_ripgrep",
+        "src_urh": "src_urh",
+        "src_zellij": "src_zellij"
+      }
+    },
+    "src_amber": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617672680,
+        "narHash": "sha256-mmgJCD7kJjvpxyagsoe5CSzqIEZcIiYMAMP3axRphv4=",
+        "owner": "dalance",
+        "repo": "amber",
+        "rev": "ac9c9366bbad13d58a2476c932d71e392e6bcbe6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dalance",
+        "ref": "v0.5.9",
+        "repo": "amber",
+        "type": "github"
+      }
+    },
+    "src_eureka": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1649596582,
+        "narHash": "sha256-NJ1O8+NBG0y39bMOZeah2jSZlvnPrtpCtXrgAYmVrAc=",
+        "owner": "simeg",
+        "repo": "eureka",
+        "rev": "55bdcb24d9953548faf15c490673cf5ea4145540",
+        "type": "github"
+      },
+      "original": {
+        "owner": "simeg",
+        "ref": "v2.0.0",
+        "repo": "eureka",
+        "type": "github"
       }
     },
     "src_httpie": {
@@ -326,6 +362,40 @@
         "type": "github"
       }
     },
+    "src_resvg": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1654958970,
+        "narHash": "sha256-GiRLunAfDBqJtaq2ccQ3tvPDfmTg5OklkI6apAiMYL0=",
+        "owner": "RazrFalcon",
+        "repo": "resvg",
+        "rev": "a27a0a03677c859f7b91f6d945d1ae09ab388f39",
+        "type": "github"
+      },
+      "original": {
+        "owner": "RazrFalcon",
+        "ref": "v0.23.0",
+        "repo": "resvg",
+        "type": "github"
+      }
+    },
+    "src_ripgrep": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623499944,
+        "narHash": "sha256-udEh+Re2PeO3DnX4fQThsaT1Y3MBHFfrX5Q5EN2XrF0=",
+        "owner": "burntsushi",
+        "repo": "ripgrep",
+        "rev": "af6b6c543b224d348a8876f0c06245d9ea7929c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "burntsushi",
+        "ref": "13.0.0",
+        "repo": "ripgrep",
+        "type": "github"
+      }
+    },
     "src_urh": {
       "flake": false,
       "locked": {
@@ -339,6 +409,23 @@
       "original": {
         "owner": "jopohl",
         "repo": "urh",
+        "type": "github"
+      }
+    },
+    "src_zellij": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1654608712,
+        "narHash": "sha256-T2mkkE7z6AhHnn/77HcrvbY+32EOwE8jjh+veVOE1CY=",
+        "owner": "zellij-org",
+        "repo": "zellij",
+        "rev": "3c692248d894de7829ed0da33237204089cc20d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zellij-org",
+        "ref": "v0.30.0",
+        "repo": "zellij",
         "type": "github"
       }
     }
