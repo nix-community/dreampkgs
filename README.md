@@ -28,11 +28,6 @@ nix flake show
 nix build .#{package-name}
 ```
 
-### modify the build recipe of a package or dependency
-Open `./overrides/{subsystem}/default.nix` and add or modify entries.
-See the documentation for the [Override System](https://github.com/nix-community/dream2nix/blob/main/docs/override-system.md)
-
-
 # Developing/Debugging dream2nix
 ## Use dreampkgs with a local checkout of dream2nix
 Temporarily override the dream2nix input of dreampkgs via:
