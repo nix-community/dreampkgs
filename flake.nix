@@ -23,5 +23,6 @@
       packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
       packageSets.dreampkgs = self.packages.${system};
     };
+    checks.${system} = self.packages.${system};
   };
 }
