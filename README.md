@@ -1,3 +1,5 @@
+foo
+
 [dreampkgs](https://github.com/nix-community/dreampkgs)
 is a collection of software packages managed with
 [dream2nix](https://github.com/nix-community/dream2nix), a framework for automated packaging.
