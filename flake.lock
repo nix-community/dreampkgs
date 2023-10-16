@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "crab-fit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690982468,
+        "narHash": "sha256-jy8BrJSHukRenPbZHw4nPx3cSi7E2GSg//WOXDh90mY=",
+        "owner": "GRA0007",
+        "repo": "crab.fit",
+        "rev": "628f9eefc300bf1ed3d6cc3323332c2ed9b8a350",
+        "type": "github"
+      },
+      "original": {
+        "owner": "GRA0007",
+        "repo": "crab.fit",
+        "type": "github"
+      }
+    },
     "devshell": {
       "flake": false,
       "locked": {
@@ -182,6 +198,7 @@
     },
     "root": {
       "inputs": {
+        "crab-fit": "crab-fit",
         "dream2nix": "dream2nix",
         "nixpkgs": [
           "dream2nix",

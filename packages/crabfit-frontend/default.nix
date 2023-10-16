@@ -1,17 +1,9 @@
 { config
 , dream2nix
 , lib
+, inputs
 , ...
-}:
-let
-  source = config.deps.fetchFromGitHub {
-    owner = "GRA0007";
-    repo = "crab.fit";
-    rev = "628f9eefc300bf1ed3d6cc3323332c2ed9b8a350";
-    hash = "sha256-jy8BrJSHukRenPbZHw4nPx3cSi7E2GSg//WOXDh90mY=";
-  };
-in
-{
+}: {
   imports = [
     dream2nix.modules.dream2nix.nodejs-package-json
     dream2nix.modules.dream2nix.nodejs-package-lock
@@ -32,10 +24,10 @@ in
     });
   };
 
-  name = "crab-fit-frontend";
-  version = (lib.substring 0 8 source.rev);
+  name = "crabfit-frontend";
+  version = (lib.substring 0 8 inputs.crab-fit.rev);
 
-  nodejs-package-lock.source = (source + "/frontend");
+  nodejs-package-lock.source = (inputs.crab-fit + "/frontend");
 
   nodejs-granular.buildScript = ''
     next build
@@ -51,7 +43,7 @@ in
     '';
     postInstall = ''
       makeWrapper $(realpath $out/lib/node_modules/.bin/next) $out/bin/crab-fit-frontend \
-        --chdir $out/lib/node_modules/crab-fit-frontend \
+        --chdir $out/lib/node_modules/crabfit-frontend \
         --add-flags start
     '';
   };

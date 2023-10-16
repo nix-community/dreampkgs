@@ -4,6 +4,8 @@
   inputs = {
     dream2nix.url = "github:nix-community/dream2nix";
     nixpkgs.follows = "dream2nix/nixpkgs";
+    crab-fit.url = "github:GRA0007/crab.fit";
+    crab-fit.flake = false;
   };
 
   outputs = inputs @ {
@@ -22,7 +24,11 @@
       packagesDir = ./packages;
       packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
       packageSets.dreampkgs = self.packages.${system};
+      specialArgs = {inherit inputs;};
     };
-    checks.${system} = self.packages.${system};
+    checks.${system} =
+      builtins.mapAttrs
+      (_: p: p // {inherit system;})
+      self.packages.${system};
   };
 }
