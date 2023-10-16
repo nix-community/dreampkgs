@@ -21,6 +21,7 @@
       projectRootFile = "flake.nix";
       packagesDir = ./packages;
       packageSets.nixpkgs = nixpkgs.legacyPackages.${system};
+      packageSets.dreampkgs = self.packages.${system};
     };
   };
 }
