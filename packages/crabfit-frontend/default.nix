@@ -42,7 +42,7 @@
         --replace "<body className={karla.className}>" "<body>"
     '';
     postInstall = ''
-      makeWrapper $(realpath $out/lib/node_modules/.bin/next) $out/bin/crab-fit-frontend \
+      makeWrapper $(realpath $out/lib/node_modules/.bin/next) $out/bin/crabfit-frontend \
         --chdir $out/lib/node_modules/crabfit-frontend \
         --add-flags start
     '';

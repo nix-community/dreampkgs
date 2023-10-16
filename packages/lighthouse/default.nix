@@ -58,8 +58,10 @@ rec {
       rm -rf ./node_modules/lighthouse
       ln -s "$(realpath .)" ./node_modules/lighthouse
       ln -s "$(realpath ./lighthouse-logger)" ./node_modules/lighthouse-logger
-      node build/build-report-components.js && node build/build-report.js
-      node ./build/build-bundle.js clients/devtools/devtools-entry.js dist/lighthouse-dt-bundle.js && node ./build/build-dt-report-resources.js
+      node build/build-report-components.js
+      node build/build-report.js
+      node ./build/build-bundle.js clients/devtools/devtools-entry.js dist/lighthouse-dt-bundle.js
+      node ./build/build-dt-report-resources.js
     '';
   };
 }
