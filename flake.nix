@@ -1,5 +1,5 @@
 {
-  description = "My flake with dream2nix packages";
+  description = "A collection of software packages managed with dream2nix";
 
   inputs = {
     dream2nix.url = "github:nix-community/dream2nix";
