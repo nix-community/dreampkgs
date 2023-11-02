@@ -110,6 +110,23 @@
         "type": "github"
       }
     },
+    "logchecker": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1693771389,
+        "narHash": "sha256-o0Pw/w+NKeL6haB+gObTK2xMJ78ZuOj7lmoJruaAuWQ=",
+        "owner": "OPSnet",
+        "repo": "Logchecker",
+        "rev": "e71120ed6e39b69b69d6e30e0d2d4badef8fd1be",
+        "type": "github"
+      },
+      "original": {
+        "owner": "OPSnet",
+        "ref": "0.11.1",
+        "repo": "Logchecker",
+        "type": "github"
+      }
+    },
     "nix-github-actions": {
       "inputs": {
         "nixpkgs": [
@@ -200,6 +217,7 @@
       "inputs": {
         "crab-fit": "crab-fit",
         "dream2nix": "dream2nix",
+        "logchecker": "logchecker",
         "nixpkgs": [
           "dream2nix",
           "nixpkgs"

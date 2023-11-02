@@ -6,6 +6,8 @@
     nixpkgs.follows = "dream2nix/nixpkgs";
     crab-fit.url = "github:GRA0007/crab.fit";
     crab-fit.flake = false;
+    logchecker.url = "github:OPSnet/Logchecker/0.11.1";
+    logchecker.flake = false;
   };
 
   outputs = inputs @ {
