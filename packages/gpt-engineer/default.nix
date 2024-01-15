@@ -28,6 +28,10 @@ in {
       for bin in $(ls ${gpt-engineer}/bin/); do
         ln -s ${gpt-engineer}/bin/$bin $out/bin/$bin
       done
+
+      # wrap program to set NODE_OPTIONS=--openssl-legacy-provider
+      wrapProgram $out/bin/gpte \
+        --prefix NODE_OPTIONS " " --openssl-legacy-provider
     '';
   };
   overrides.gpt-engineer = {
