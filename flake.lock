@@ -23,12 +23,12 @@
         "pyproject-nix": "pyproject-nix"
       },
       "locked": {
-        "dirtyRev": "1ddbe31887882126c2b0830611db5958c934d576-dirty",
-        "dirtyShortRev": "1ddbe318-dirty",
-        "lastModified": 1704725220,
-        "narHash": "sha256-QRFv19a2zH73DST3qS2wantZNcagtMFF39T+tOnJlko=",
-        "type": "git",
-        "url": "file:///home/grmpf/projects/github/dream2nix"
+        "lastModified": 1705053819,
+        "narHash": "sha256-x+jLR9mHV0bVryOWF+4xrK+atldiY1PeaCINEDalREw=",
+        "owner": "nix-community",
+        "repo": "dream2nix",
+        "rev": "8300ad2d78f8388fa4ce25b0cd2fccd261dad579",
+        "type": "github"
       },
       "original": {
         "owner": "nix-community",
