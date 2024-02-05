@@ -12,16 +12,16 @@ in {
   ];
 
   deps = {nixpkgs, ...}: {
-    python3 = nixpkgs.python311;
+    python = nixpkgs.python311;
   };
 
   pdm.lockfile = ./pdm.lock;
   pdm.pyproject = ./pyproject.toml;
-  pdm.pythonInterpreter = config.deps.python3;
+
   mkDerivation = {
     src = ./.;
     buildInputs = [
-      config.deps.python3.pkgs.pdm-backend
+      config.deps.python.pkgs.pdm-backend
     ];
     postFixup = ''
       mkdir -p $out/bin
@@ -36,10 +36,10 @@ in {
   };
   overrides.gpt-engineer = {
     mkDerivation.buildInputs = [
-      config.deps.python3.pkgs.poetry-core
+      config.deps.python.pkgs.poetry-core
     ];
     mkDerivation.propagatedBuildInputs = [
-      config.deps.python3.pkgs.tkinter
+      config.deps.python.pkgs.tkinter
     ];
   };
 }
