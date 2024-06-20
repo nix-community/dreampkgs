@@ -1,0 +1,254 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "aiosmtpd": {
+        "is_direct": false,
+        "sha256": "a196922f1903e54c4d37c53415b7613056d39e2b1e8249f324b9ee7a439be0f1",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/78/25/23df457095434b94d064e68329a1b18d23c1f1485e48cb99a42394ac5e3d/aiosmtpd-1.4.5-py3-none-any.whl",
+        "version": "1.4.5"
+      },
+      "annotated-types": {
+        "is_direct": false,
+        "sha256": "1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl",
+        "version": "0.7.0"
+      },
+      "asgiref": {
+        "is_direct": false,
+        "sha256": "3e1e3ecc849832fe52ccf2cb6686b7a55f82bb1d6aee72a58826471390335e47",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/39/e3/893e8757be2612e6c266d9bb58ad2e3651524b5b40cf56761e985a28b13e/asgiref-3.8.1-py3-none-any.whl",
+        "version": "3.8.1"
+      },
+      "atpublic": {
+        "is_direct": false,
+        "sha256": "df90de1162b1a941ee486f484691dc7c33123ee638ea5d6ca604061306e0fdde",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/5e/5e/3613e5aa17ac07a69e89a5f47706f5719035f386eb024d6680483926b034/atpublic-4.1.0-py3-none-any.whl",
+        "version": "4.1.0"
+      },
+      "attrs": {
+        "is_direct": false,
+        "sha256": "99b87a485a5820b23b879f04c2305b44b951b502fd64be915879d77a7e8fc6f1",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl",
+        "version": "23.2.0"
+      },
+      "cffi": {
+        "is_direct": false,
+        "sha256": "7b78010e7b97fef4bee1e896df8a4bbb6712b7f05b7ef630f9d1da00f6444d2e",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/9b/89/a31c81e36bbb793581d8bba4406a8aac4ba84b2559301c44eef81f4cf5df/cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "1.16.0"
+      },
+      "cronsim": {
+        "is_direct": false,
+        "sha256": "153cf0219dcc1a0ca9e71a836afdb60796537d8c521c686c7a731348375733bf",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/05/b7/6f1f1e50d98ad5c7e4a4c9710ab6cadf7e785ba4013215ccf696cd99e708/cronsim-2.5.tar.gz",
+        "version": "2.5"
+      },
+      "cryptography": {
+        "is_direct": false,
+        "sha256": "9c0c1716c8447ee7dbf08d6db2e5c41c688544c61074b54fc4564196f55c25a7",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/fa/e2/b7e6e8c261536c489d9cf908769880d94bd5d9a187e166b0dc838d2e6a56/cryptography-42.0.8-cp39-abi3-manylinux_2_28_x86_64.whl",
+        "version": "42.0.8"
+      },
+      "django": {
+        "is_direct": false,
+        "sha256": "916423499d75d62da7aa038d19aef23d23498d8df229775eb0a6309ee1013775",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/d3/31/32ce7eb77accc1678054fe951228766b47f9ec7d68d96d1caaa2611cbafe/Django-5.0.4-py3-none-any.whl",
+        "version": "5.0.4"
+      },
+      "django-appconf": {
+        "is_direct": false,
+        "sha256": "c3ae442fba1ff7ec830412c5184b17169a7a1e71cf0864a4c3f93cf4c98a1993",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c0/98/1cb3d9e8b1c6d0a74539b998474796fc5c0c0888b6201e5c95ba2f7a0677/django_appconf-1.0.6-py3-none-any.whl",
+        "version": "1.0.6"
+      },
+      "django-compressor": {
+        "is_direct": false,
+        "sha256": "6e2b0c0becb9607f5099c2546a824c5b84a6918a34bc37a8a622ffa250313596",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/a0/b5/3c000d6d7b8ffa8831d2ef5bcbbe5780de172024e226ec89391853d4b759/django_compressor-4.4-py2.py3-none-any.whl",
+        "version": "4.4"
+      },
+      "django-stubs-ext": {
+        "is_direct": false,
+        "sha256": "45a5d102417a412e3606e3c358adb4744988a92b7b58ccf3fd64bddd5d04d14c",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/21/be/e87631afa766a101877758495bec4108fdaa20ba65a2e80bc02cfa874985/django_stubs_ext-4.2.7-py3-none-any.whl",
+        "version": "4.2.7"
+      },
+      "fido2": {
+        "is_direct": false,
+        "sha256": "6be34c0b9fe85e4911fd2d103cce7ae8ce2f064384a7a2a3bd970b3ef7702931",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e7/d9/8bfb99128b11829fb6c1b0a5a996dc117224966806e8abb12cbb1fea196e/fido2-1.1.3-py3-none-any.whl",
+        "version": "1.1.3"
+      },
+      "oncalendar": {
+        "is_direct": false,
+        "sha256": "3122aa811786c313568a53745015729aa650e35054b689c08b6db4b1ee891287",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/d2/16/0a632a870a4f6916c91e95a717391a9c0eaaa28a3d2402704551861b118a/oncalendar-1.1.tar.gz",
+        "version": "1.1"
+      },
+      "psycopg2": {
+        "is_direct": false,
+        "sha256": "d1454bde93fb1e224166811694d600e746430c006fbb031ea06ecc2ea41bf156",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c9/5e/dc6acaf46d78979d6b03458b7a1618a68e152a6776fce95daac5e0f0301b/psycopg2-2.9.9.tar.gz",
+        "version": "2.9.9"
+      },
+      "pycparser": {
+        "is_direct": false,
+        "sha256": "c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl",
+        "version": "2.22"
+      },
+      "pycurl": {
+        "is_direct": false,
+        "sha256": "5730590be0271364a5bddd9e245c9cc0fb710c4cbacbdd95264a3122d23224ca",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/a8/af/24d3acfa76b867dbd8f1166853c18eefc890fc5da03a48672b38ea77ddae/pycurl-7.45.2.tar.gz",
+        "version": "7.45.2"
+      },
+      "pydantic": {
+        "is_direct": false,
+        "sha256": "cc46fce86607580867bdc3361ad462bab9c222ef042d3da86f2fb333e1d916c5",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e5/f3/8296f550276194a58c5500d55b19a27ae0a5a3a51ffef66710c58544b32d/pydantic-2.6.4-py3-none-any.whl",
+        "version": "2.6.4"
+      },
+      "pydantic-core": {
+        "is_direct": false,
+        "sha256": "a6b1bb0827f56654b4437955555dc3aeeebeddc47c2d7ed575477f082622c49e",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/18/0e/1e39cfbffa57e92ab9f1f0869b32ead8a48ab11e4a373421d625f25fcb26/pydantic_core-2.16.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "2.16.3"
+      },
+      "pyotp": {
+        "is_direct": false,
+        "sha256": "81c2e5865b8ac55e825b0358e496e1d9387c811e85bb40e71a3b29b288963612",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c3/c0/c33c8792c3e50193ef55adb95c1c3c2786fe281123291c2dbf0eaab95a6f/pyotp-2.9.0-py3-none-any.whl",
+        "version": "2.9.0"
+      },
+      "rcssmin": {
+        "is_direct": false,
+        "sha256": "35da6a6999e9e2c5b0e691b42ed56cc479373e0ecab33ef5277dfecce625e44a",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/70/61/3f129d34981d1d7eb46cd9ba20a73720d99a64bfa0cf10c4dbddd1b9c2b7/rcssmin-1.1.1-cp311-cp311-manylinux1_x86_64.whl",
+        "version": "1.1.1"
+      },
+      "rjsmin": {
+        "is_direct": false,
+        "sha256": "7dd58b5ed88233bc61dc80b0ed87b93a1786031d9977c70d335221ef1ac5581a",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/29/be/427af5875f63e6ca4f717285a36fd3f377665dacc0a57d3ea68a937296a4/rjsmin-1.2.1-cp311-cp311-manylinux1_x86_64.whl",
+        "version": "1.2.1"
+      },
+      "segno": {
+        "is_direct": false,
+        "sha256": "e90c6ff82c633f757a96d4b1fb06cc932589b5237f33be653f52252544ac64df",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/27/7c/abc460494640767edfce9c920da3e03df22327fc5e3d51c7857f50fd89c4/segno-1.6.1-py3-none-any.whl",
+        "version": "1.6.1"
+      },
+      "sqlparse": {
+        "is_direct": false,
+        "sha256": "c204494cd97479d0e39f28c93d46c0b2d5959c7b9ab904762ea6c7af211c8663",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/43/5d/a0fdd88fd486b39ae1fd1a75ff75b4e29a0df96c0304d462fd407b82efe0/sqlparse-0.5.0-py3-none-any.whl",
+        "version": "0.5.0"
+      },
+      "statsd": {
+        "is_direct": false,
+        "sha256": "c2676519927f7afade3723aca9ca8ea986ef5b059556a980a867721ca69df093",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/f4/d0/c9543b52c067a390ae6ae632d7fd1b97a35cdc8d69d40c0b7d334b326410/statsd-4.0.1-py2.py3-none-any.whl",
+        "version": "4.0.1"
+      },
+      "typing-extensions": {
+        "is_direct": false,
+        "sha256": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+        "version": "4.12.2"
+      },
+      "whitenoise": {
+        "is_direct": false,
+        "sha256": "b1f9db9bf67dc183484d760b99f4080185633136a273a03f6436034a41064146",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/67/16/bb488ac8230f1bce94943b6654f2aad566d18aae575c8b6d8a99c78c489e/whitenoise-6.6.0-py3-none-any.whl",
+        "version": "6.6.0"
+      }
+    },
+    "targets": {
+      "default": {
+        "aiosmtpd": [
+          "atpublic",
+          "attrs"
+        ],
+        "annotated-types": [],
+        "asgiref": [],
+        "atpublic": [],
+        "attrs": [],
+        "cffi": [
+          "pycparser"
+        ],
+        "cronsim": [],
+        "cryptography": [
+          "cffi"
+        ],
+        "django": [
+          "asgiref",
+          "sqlparse"
+        ],
+        "django-appconf": [
+          "django"
+        ],
+        "django-compressor": [
+          "django-appconf",
+          "rcssmin",
+          "rjsmin"
+        ],
+        "django-stubs-ext": [
+          "django",
+          "typing-extensions"
+        ],
+        "fido2": [
+          "cryptography"
+        ],
+        "oncalendar": [],
+        "psycopg2": [],
+        "pycparser": [],
+        "pycurl": [],
+        "pydantic": [
+          "annotated-types",
+          "pydantic-core",
+          "typing-extensions"
+        ],
+        "pydantic-core": [
+          "typing-extensions"
+        ],
+        "pyotp": [],
+        "rcssmin": [],
+        "rjsmin": [],
+        "segno": [],
+        "sqlparse": [],
+        "statsd": [],
+        "typing-extensions": [],
+        "whitenoise": []
+      }
+    }
+  },
+  "invalidationHash": "bd6e1bde0c63338e44443d3d2ce9ca2dafc139737d2701a7d96c2dcae2f65308"
+}
