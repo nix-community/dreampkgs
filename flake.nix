@@ -32,8 +32,14 @@
       specialArgs = {inherit inputs;};
     });
     checks = eachSystem (system:
-      builtins.mapAttrs
+      nixpkgs.lib.filterAttrs
+        (n: p: !(
+          # lighthouse has too many paths for darwins sandbox
+          # sandbox-exec: pattern serialization length 78580 exceeds maximum (65535)
+          system == "aarch64-darwin" && n == "lighthouse")
+        )
+      (builtins.mapAttrs
         (_: p: p // {inherit system;})
-        self.packages.${system});
+        self.packages.${system}));
   };
 }
