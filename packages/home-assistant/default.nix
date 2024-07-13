@@ -61,9 +61,10 @@ in {
     requirementsFiles = ["${./requirements.txt}"];
     # XXX those nativeBuildInputs are not yet correctly forwarded
     nativeBuildInputs = [
-      config.deps.gammu
       config.deps.cc
       config.deps.openblas
+    ] ++ lib.optionals config.deps.stdenv.isLinux [
+      config.deps.gammu
     ];
 
     drvs = {
