@@ -34,6 +34,7 @@ in {
     '';
   };
   overrides.gpt-engineer = {
+    buildPythonPackage.pyproject = true;
     mkDerivation.buildInputs = [
       config.deps.python.pkgs.poetry-core
     ];
