@@ -18,6 +18,13 @@ in {
       openssl
       pkg-config
       protobuf
+      iconv
+      ;
+      inherit (nixpkgs.darwin.apple_sdk.frameworks)
+        CoreFoundation
+        Security
+        System
+        SystemConfiguration
       ;
   };
 
@@ -28,8 +35,10 @@ in {
 
   mkDerivation = {
     src = source;
-    buildInputs = [
-      config.deps.openssl
+    buildInputs = with config.deps; [
+      openssl
+    ] ++ lib.optionals stdenv.isDarwin [
+      iconv CoreFoundation Security System SystemConfiguration
     ];
     nativeBuildInputs = [
       config.deps.pkg-config
@@ -46,8 +55,10 @@ in {
       mkDerivation.preBuild = ''
         rm $TMPDIR/nix-vendor/google-cloud-0.2.1/build.rs
       '';
-      mkDerivation.buildInputs = [
-        config.deps.openssl
+      mkDerivation.buildInputs = with config.deps; [
+        openssl
+      ] ++ lib.optionals stdenv.isDarwin [
+        iconv CoreFoundation Security System SystemConfiguration
       ];
       mkDerivation.nativeBuildInputs = [
         config.deps.pkg-config
