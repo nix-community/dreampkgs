@@ -6,8 +6,8 @@ Both dream2nix and dreampkgs are unstable at this point.
 
 The goal of this repo is to test and improve dream2nix.
 
-See hydra jobs here: https://hydra.ngi0.nixos.org/jobset/dreampkgs/main#tabs-jobs
-
+For a list of CI jobs see here:
+[buildbot.nix-community.org: dreampkgs]( https://buildbot.nix-community.org/#/projects/2)
 To interact with the CLI, use nix 2.4+ with enabled experimental features nix-command + flakes.
 
 # Packaging workflow
