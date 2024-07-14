@@ -42,7 +42,7 @@ in {
   name = "homeassistant";
   inherit version;
   buildPythonPackage.catchConflicts = false;
-  buildPythonPackage.format = "pyproject";
+  buildPythonPackage.pyproject = true;
 
   mkDerivation = {
     inherit src;
@@ -129,7 +129,6 @@ in {
       };
 
       aiokafka = {
-        buildPythonPackage.pyproject = true;
         mkDerivation = {
           nativeBuildInputs = [
             config.deps.python.pkgs.cython
