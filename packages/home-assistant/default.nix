@@ -20,18 +20,29 @@ in {
     python = nixpkgs.python312;
     python3 = nixpkgs.python312;
     cc = nixpkgs.stdenv.cc;
-    gammu = nixpkgs.gammu;
-    openblas = nixpkgs.openblas;
-    autoconf = nixpkgs.autoconf;
-    runCommand = nixpkgs.runCommand;
-    rsync = nixpkgs.rsync;
-    buildEnv = nixpkgs.buildEnv;
+    inherit (nixpkgs)
+      gammu
+      openblas
+      autoconf
+      runCommand
+      rsync
+      buildEnv
+      gcc
+      zlib
+      ;
+
+    inherit (nixpkgs.darwin.apple_sdk.frameworks)
+      CoreServices
+      CoreAudio
+      AudioToolbox
+    ;
+
   };
 
   name = "homeassistant";
   inherit version;
   buildPythonPackage.catchConflicts = false;
-  buildPythonPackage.format = "pyproject";
+  buildPythonPackage.pyproject = true;
 
   mkDerivation = {
     inherit src;
@@ -61,9 +72,10 @@ in {
     requirementsFiles = ["${./requirements.txt}"];
     # XXX those nativeBuildInputs are not yet correctly forwarded
     nativeBuildInputs = [
-      config.deps.gammu
       config.deps.cc
       config.deps.openblas
+    ] ++ lib.optionals config.deps.stdenv.isLinux [
+      config.deps.gammu
     ];
 
     drvs = {
@@ -79,6 +91,54 @@ in {
             --replace "Cython>=3.0.5" "Cython"
         '';
       };
+
+      pyinsteon.buildPythonPackage.pyproject = true;
+      tesla-powerwall.buildPythonPackage.pyproject = true;
+
+      miniaudio.mkDerivation = {
+        buildInputs = lib.optionals config.deps.stdenv.isDarwin [
+          config.deps.CoreAudio
+          config.deps.AudioToolbox
+        ];
+      };
+
+      watchdog.mkDerivation = {
+        buildInputs = lib.optionals config.deps.stdenv.isDarwin [
+          config.deps.CoreServices
+        ];
+      };
+
+      isal = lib.optionalAttrs config.deps.stdenv.isDarwin {
+        mkDerivation = {
+          configurePhase = ''
+            export PATH="${config.deps.gcc}/bin:$PATH"
+          '';
+          nativeBuildInputs = [config.deps.gcc];
+        };
+      };
+      pyitachip2ir = lib.optionalAttrs config.deps.stdenv.isDarwin {
+        mkDerivation = {
+          # https://github.com/Arthmoor/AFKMud/issues/18#issuecomment-339777568
+          patchPhase = ''
+            substituteInPlace source/ITachIP2IR.cpp \
+                --replace \
+                'result|=bind(beaconSocket,(struct sockaddr*)&address,sizeof(address));' \
+                'result|=::bind(beaconSocket,(struct sockaddr*)&address,sizeof(address));' \
+          '';
+        };
+      };
+
+      aiokafka = {
+        mkDerivation = {
+          nativeBuildInputs = [
+            config.deps.python.pkgs.cython
+          ];
+          buildInputs = [
+            config.deps.zlib
+          ];
+        };
+      };
+
       dtlssocket.mkDerivation = {
         nativeBuildInputs = [
           config.deps.python.pkgs.cython
@@ -93,6 +153,8 @@ in {
       webrtc-noise-gain.mkDerivation = {
         buildInputs = [
           config.deps.python.pkgs.pybind11
+        ] ++ lib.optionals config.deps.stdenv.isDarwin [
+          config.deps.CoreServices
         ];
       };
       pygatt.mkDerivation = {
