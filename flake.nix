@@ -33,12 +33,9 @@
     });
     checks = eachSystem (system:
       nixpkgs.lib.filterAttrs
-        (n: p: !(
-          # lighthouse and hoome-assistant have too many paths for darwins sandbox
-          # sandbox-exec: pattern serialization length 78580 exceeds maximum (65535)
-          (system == "aarch64-darwin" && n == "lighthouse")
-          || (system == "aarch64-darwin" && n == "home-assistant"))
-        )
+        # hoome-assistant has too many paths for darwins sandbox
+        # sandbox-exec: pattern serialization length 78580 exceeds maximum (65535)
+        (n: p: !(system == "aarch64-darwin" && n == "home-assistant"))
       (builtins.mapAttrs
         (_: p: p // {inherit system;})
         self.packages.${system}));
