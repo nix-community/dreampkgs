@@ -1,16 +1,14 @@
 queue_rules:
   - name: default
-    merge_conditions:
-      - check-success=buildbot/nix-eval
-defaults:
-  actions:
-    queue:
-      allow_merging_configuration_change: true
-      method: rebase
-pull_request_rules:
-  - name: merge using the merge queue
-    conditions:
+    queue_conditions:
       - base=main
       - label~=merge-queue|auto-merge|dependencies
+    merge_conditions:
+      - check-success=buildbot/nix-eval
+    merge_method: rebase
+
+pull_request_rules:
+  - name: merge using the merge queue
+    conditions: []
     actions:
       queue:
